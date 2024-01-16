@@ -15,3 +15,7 @@ add_executable(basic-tutorial-2-exercise basic-tutorial-2-exercise.c)
 target_link_directories(basic-tutorial-2-exercise PRIVATE ${gstreamr-1.0_LIBRARY_DIRS})
 target_link_libraries(basic-tutorial-2-exercise ${gstreamr-1.0_LIBRARIES})
 
+add_executable(basic-tutorial-3-exercise basic-tutorial-3-exercise.c)
+target_link_directories(basic-tutorial-3-exercise PRIVATE ${gstreamr-1.0_LIBRARY_DIRS})
+target_link_libraries(basic-tutorial-3-exercise ${gstreamr-1.0_LIBRARIES})
+
